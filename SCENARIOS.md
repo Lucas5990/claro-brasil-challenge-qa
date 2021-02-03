@@ -50,3 +50,21 @@
 1. Go to the URL "http://automationpractice.com/index.php";
 1. Hover the cursor over the text "Dresses";
 1. Should exhibit drop-down menu with the options: "CASUAL DRESSES","EVENING DRESSES",SUMMER DRESSES.
+
+---
+
+| Test Case ID | Test Case Name                        | Status          |
+| ------------ | ------------------------------------- | --------------- |
+| T006         | Validate Empty Home Page Cart Summary | Not Implemented |
+
+1. Go to the URL "http://automationpractice.com/index.php";
+1. Should exhibit Page Carte Summary, containing the title "SHOPPING-CART SUMMARY" and: "01. Summary","02. Sign in","03. Address","04. Shipping","05. Payment","Your shopping cart is empty.".
+
+---
+
+| Test Case ID | Test Case Name            | Status          |
+| ------------ | ------------------------- | --------------- |
+| T007         | Validate Home Page Footer | Not Implemented |
+
+1. Go to the URL "http://automationpractice.com/index.php";
+1. Should exhibit footer at the end of the page, containing sections: "Newsletter","Follow Us","Category","Information","My Account","Store Information"
