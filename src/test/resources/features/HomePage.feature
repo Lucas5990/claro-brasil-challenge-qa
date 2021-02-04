@@ -25,3 +25,12 @@ Feature: Home Page
     When I navigate to the URL "http://automationpractice.com"
     Then The Home Page is presented
 
+  Scenario Outline: Validate Home Page Navbar
+    When I navigate to the URL "http://automationpractice.com"
+    Then I can see the navbar with the element <element>
+    
+    Examples:
+    | element |
+    | "Call us now: 0123-456-789" | 
+    | "Contact us" |
+    | "Sign in" |

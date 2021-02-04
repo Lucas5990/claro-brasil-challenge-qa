@@ -6,18 +6,18 @@
 
 ---
 
-| Test Case ID | Test Case Name        | Status          |
-| ------------ | --------------------- | --------------- |
-| T001         | Navigate to Home Page | Not Implemented |
+| Test Case ID | Test Case Name        | Status                     |
+| ------------ | --------------------- | -------------------------- |
+| T001         | Navigate to Home Page | Done ✔️ :heavy_check_mark: |
 
 1. Go to the URL "http://automationpractice.com/index.php";
 1. Should load the page successfuly.
 
 ---
 
-| Test Case ID | Test Case Name            | Status          |
-| ------------ | ------------------------- | --------------- |
-| T002         | Validate Home Page Navbar | Not Implemented |
+| Test Case ID | Test Case Name            | Status                     |
+| ------------ | ------------------------- | -------------------------- |
+| T002         | Validate Home Page Navbar | In Progress :construction: |
 
 1. Go to the URL "http://automationpractice.com/index.php";
 1. Should exhibit Home Page with navbar links "Contact Us", "Sign In", text "Call us now: 0123-456-789";
