@@ -6,8 +6,8 @@
 
 ---
 
-| Test Case ID | Test Case Name        | Status                     |
-| ------------ | --------------------- | -------------------------- |
+| Test Case ID | Test Case Name        | Status                  |
+| ------------ | --------------------- | ----------------------- |
 | T001         | Navigate to Home Page | Done :heavy_check_mark: |
 
 1. Go to the URL "http://automationpractice.com/index.php";
@@ -68,3 +68,9 @@
 
 1. Go to the URL "http://automationpractice.com/index.php";
 1. Should exhibit footer at the end of the page, containing sections: "Newsletter","Follow Us","Category","Information","My Account","Store Information"
+
+## Register
+
+| Test Case ID | Test Case Name                       | Status          |
+| ------------ | ------------------------------------ | --------------- |
+| T008         | Should create an Account successfuly | Not Implemented |

@@ -6,7 +6,7 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pages.HomePage;
-import pages.SignInPage;
+import pages.AuthenticationPage;
 
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;

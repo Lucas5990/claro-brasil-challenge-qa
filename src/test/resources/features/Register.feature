@@ -16,24 +16,14 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@HomePage
-Feature: Home Page
-  Tests for the Home Page
-	
-  @Smoke
-  Scenario: Navigate to Home Page
-    When I navigate to the URL "http://automationpractice.com"
-    Then The Home Page is presented
+@tag
+Feature: Register new Account
+  I want to use this template for my feature file
 
-	@Multiple
-  Scenario Outline: Validate Home Page Navbar
+    @SignIn
+    Scenario: Should create an account successfully
     When I navigate to the URL "http://automationpractice.com"
-    Then I can see the navbar with the element <element>
-    
-    Examples:
-    | element |
-    | "Call us now: 0123-456-789" | 
-    | "Contact us" |
-    | "Sign in" |
-        
-
+    And I left click at the Sign In button
+    And I write "tste@gmail.com" in the Create Account Email input
+    Then I click at the Create an Account button
+    And I select the option "11" at the Days combo box
