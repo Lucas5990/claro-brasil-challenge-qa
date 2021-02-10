@@ -8,10 +8,10 @@
 
 | Test Case ID | Test Case Name        | Status                     |
 | ------------ | --------------------- | -------------------------- |
-| T001         | Navigate to Home Page | Done ✔️ :heavy_check_mark: |
+| T001         | Navigate to Home Page | Done :heavy_check_mark: |
 
 1. Go to the URL "http://automationpractice.com/index.php";
-1. Should load the page successfuly.
+1. Should load the page successfully.
 
 ---
 

@@ -19,12 +19,13 @@
 @HomePage
 Feature: Home Page
   Tests for the Home Page
-
+	
   @Smoke
   Scenario: Navigate to Home Page
     When I navigate to the URL "http://automationpractice.com"
     Then The Home Page is presented
 
+	@Multiple
   Scenario Outline: Validate Home Page Navbar
     When I navigate to the URL "http://automationpractice.com"
     Then I can see the navbar with the element <element>
@@ -34,3 +35,9 @@ Feature: Home Page
     | "Call us now: 0123-456-789" | 
     | "Contact us" |
     | "Sign in" |
+        
+    @SignIn
+    Scenario: Should create an account successfully
+    When I navigate to the URL "http://automationpractice.com"
+    And I left click at the Sign In button
+    And I write "lucasandrade5990@gmail.com" in the Create Account Email input
