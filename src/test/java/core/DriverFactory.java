@@ -12,7 +12,8 @@ public class DriverFactory {
 		if(driver == null) {
 			driver = new ChromeDriver();
 		}
-		driver.manage().window().setSize(new Dimension (1200, 765));
+		//driver.manage().window().setSize(new Dimension (1200, 765));
+		driver.manage().window().maximize();
 		return driver;
 	}
 	

@@ -71,6 +71,24 @@
 
 ## Register
 
-| Test Case ID | Test Case Name                       | Status          |
-| ------------ | ------------------------------------ | --------------- |
-| T008         | Should create an Account successfuly | Not Implemented |
+| Test Case ID | Test Case Name                 | Status          |
+| ------------ | ------------------------------ | --------------- |
+| T008         | Create an Account successfully | Not Implemented |
+
+1. Go to the URL "http://automationpractice.com/index.php";
+2. Click at the link <Sign in>
+3. Write "email" into <Email address> textbox
+4. Click at the button <Create an account>
+5. Write "Name" into <First name> textbox at YOUR PERSONAL INFORMATION block
+6. Write "Last Name" into <Last name> textbox at YOUR PERSONAL INFORMATION block
+7. Write "password" into <Password> textbox
+8. Write "Name" into <First name> textbox at YOUR ADDRESS block
+9. Write "Last Name" into <Last name> textbox at YOUR ADDRESS block
+10. Write "Rua Teste, 10" into <Address> textbox
+11. Write "Chicago" into <City> textbox
+12. Select "Illinois" at the <State> combobox
+13. Write "60669" into <ZIP/Postal Code> textbox
+14. Write "992928090" into <Mobile phone> textbox
+15. Write "teste2@mail.com" into <Assign an address alias for future reference> textbox
+16. Click at the <Register> button
+17. Deverá exibir a tela "MY ACCOUNT", contendo a frase "Welcome to your account. Here you can manage all of your personal information and orders
